@@ -236,11 +236,19 @@ button:hover{
 }
 
 .img-principal{
-    background-image: url("imagens/rio.jpg");
+    background-image: url(../imagens/rio.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 200ms linear; 
+}
+
+.tip4{
+    background-image: url(../imagens/lencol.jpg);
+}
+
+.tip5{
+    background-image: url(../imagens/goias.jpg);
 }
 
 .quarto{
@@ -250,19 +258,19 @@ button:hover{
 }
 
 .image1{
-    background-image: url("./imagens/manaus.jpg");
+    background-image: url(../imagens/manaus.jpg);
 }
 
 .image2{
-    background-image: url("/imagens/saopaulo.jpg");
+    background-image: url(../imagens/saopaulo.jpg);
 }
 
 .image3{
-    background-image: url("/imagens/niteroi.jpg");
+    background-image: url(../imagens/niteroi.jpg);
 }
 
 .image4{
-    background-image: url("/imagens/maranhao.jpg");
+    background-image: url(../imagens/maranhao.jpg);
 }
 
 footer{
