@@ -250,7 +250,7 @@ button:hover{
 }
 
 .image1{
-    background-image: url("/imagens/manaus.jpg");
+    background-image: url("./imagens/manaus.jpg");
 }
 
 .image2{
