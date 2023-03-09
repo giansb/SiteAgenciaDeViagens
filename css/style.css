@@ -45,7 +45,7 @@ header{
 
 .capa{
     width: 100%;
-    background-image: url(/imagens/bahia.jpg);
+    background-image: url(./imagens/bahia.jpg);
 }
 
 .formulario-div{
@@ -236,7 +236,7 @@ button:hover{
 }
 
 .img-principal{
-    background-image: url("/imagens/rio.jpg");
+    background-image: url("imagens/rio.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
