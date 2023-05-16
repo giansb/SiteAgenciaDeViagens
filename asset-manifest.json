@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/%7Bnome-do-repositorio%7D/static/css/main.d0c6c286.css",
-    "main.js": "/%7Bnome-do-repositorio%7D/static/js/main.3b45e342.js",
-    "static/js/787.ea78520d.chunk.js": "/%7Bnome-do-repositorio%7D/static/js/787.ea78520d.chunk.js",
-    "static/media/manaus.jpg": "/%7Bnome-do-repositorio%7D/static/media/manaus.44d56ac0c418abf70f65.jpg",
-    "static/media/saopaulo.jpg": "/%7Bnome-do-repositorio%7D/static/media/saopaulo.158adece97f7127c3a3f.jpg",
-    "static/media/rio.jpg": "/%7Bnome-do-repositorio%7D/static/media/rio.ecdb00a8c9b0c6ea34fe.jpg",
-    "static/media/lencol.jpg": "/%7Bnome-do-repositorio%7D/static/media/lencol.712d38d592767bc8a6bf.jpg",
-    "static/media/goias.jpg": "/%7Bnome-do-repositorio%7D/static/media/goias.12a9689d0ad80db93bb1.jpg",
-    "static/media/bahia.jpg": "/%7Bnome-do-repositorio%7D/static/media/bahia.3189561f63da8d940709.jpg",
-    "static/media/maranhao.jpg": "/%7Bnome-do-repositorio%7D/static/media/maranhao.5ba159d63a749347f65f.jpg",
-    "static/media/niteroi.jpg": "/%7Bnome-do-repositorio%7D/static/media/niteroi.dfeb6ef4ad7388d39a7a.jpg",
-    "index.html": "/%7Bnome-do-repositorio%7D/index.html",
-    "main.d0c6c286.css.map": "/%7Bnome-do-repositorio%7D/static/css/main.d0c6c286.css.map",
-    "main.3b45e342.js.map": "/%7Bnome-do-repositorio%7D/static/js/main.3b45e342.js.map",
-    "787.ea78520d.chunk.js.map": "/%7Bnome-do-repositorio%7D/static/js/787.ea78520d.chunk.js.map"
+    "main.css": "/SiteAgenciaDeViagens/static/css/main.83a8ddd1.css",
+    "main.js": "/SiteAgenciaDeViagens/static/js/main.2dcb26bd.js",
+    "static/js/787.ea78520d.chunk.js": "/SiteAgenciaDeViagens/static/js/787.ea78520d.chunk.js",
+    "static/media/manaus.jpg": "/SiteAgenciaDeViagens/static/media/manaus.44d56ac0c418abf70f65.jpg",
+    "static/media/saopaulo.jpg": "/SiteAgenciaDeViagens/static/media/saopaulo.158adece97f7127c3a3f.jpg",
+    "static/media/rio.jpg": "/SiteAgenciaDeViagens/static/media/rio.ecdb00a8c9b0c6ea34fe.jpg",
+    "static/media/lencol.jpg": "/SiteAgenciaDeViagens/static/media/lencol.712d38d592767bc8a6bf.jpg",
+    "static/media/goias.jpg": "/SiteAgenciaDeViagens/static/media/goias.12a9689d0ad80db93bb1.jpg",
+    "static/media/bahia.jpg": "/SiteAgenciaDeViagens/static/media/bahia.3189561f63da8d940709.jpg",
+    "static/media/maranhao.jpg": "/SiteAgenciaDeViagens/static/media/maranhao.5ba159d63a749347f65f.jpg",
+    "static/media/niteroi.jpg": "/SiteAgenciaDeViagens/static/media/niteroi.dfeb6ef4ad7388d39a7a.jpg",
+    "index.html": "/SiteAgenciaDeViagens/index.html",
+    "main.83a8ddd1.css.map": "/SiteAgenciaDeViagens/static/css/main.83a8ddd1.css.map",
+    "main.2dcb26bd.js.map": "/SiteAgenciaDeViagens/static/js/main.2dcb26bd.js.map",
+    "787.ea78520d.chunk.js.map": "/SiteAgenciaDeViagens/static/js/787.ea78520d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0c6c286.css",
-    "static/js/main.3b45e342.js"
+    "static/css/main.83a8ddd1.css",
+    "static/js/main.2dcb26bd.js"
   ]
 }
