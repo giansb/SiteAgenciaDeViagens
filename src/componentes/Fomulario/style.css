@@ -1,0 +1,128 @@
+.capa{
+    width: 100%;
+    background-image: url(../../../public/assets/bahia.jpg);
+}
+
+.formulario-div{
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+.formulario-cab{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    background-color: #5d15d1;
+}
+
+.formulario-cab img{
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+
+.formulario-cab h3{
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+}
+
+.formulario-cont{
+    width: 100%;
+    background-color: white;
+    padding: 30px 25px 20px 25px;
+}
+
+.formulario-cont h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.formulario-cont form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.formulario-cont form label{
+    font-size: 16px;
+}
+
+.formulario-cont form input, .formulario-cont form select{
+    height: 32px;
+    margin: 10px 0;
+    width: 100%; 
+    padding: 0 5px;
+}
+
+.juntos{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.juntos div{
+    width: 47%
+}
+
+.case{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;  
+}
+
+.case div{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    flex-flow: row nowrap;
+}
+.case div input{
+    width: 18px;
+    margin-right: 5px;
+}
+
+button{
+    width: 160px;
+    height: 32px;
+    color: white;
+    background-color: #5d15d1;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+button{
+    width: 100%;
+}
+
+@media(max-width:540px){
+    .juntos, .opcoes, .case{
+        flex-flow: column nowrap;
+    }
+    .juntos div{
+        width: 100%;
+    }
+}
+
+
+
+.limita-secao{
+    max-width: 1024px;
+    margin: auto;
+    height: 100%;
+  }
+  
+  
+  @media(max-width:1100px){
+    .limita-secao{
+        width: 90%;
+    }
+  }

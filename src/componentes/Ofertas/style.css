@@ -1,0 +1,164 @@
+.ofertas{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 32px auto 0 auto;
+}
+
+.ofertas h2:first-child{
+    font-size: 20px;
+    color: black;
+}
+.ofertas h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    
+}
+
+.ofertas-imagens{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.metade{
+    width: 50%;
+    position: relative;
+}
+
+.metade2{
+    width: 49%;
+    display: flex;
+    position: relative;
+}
+
+.metade2 h3{
+    color: blaCK;
+}
+.metade2 div:last-of-type{
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+    padding: 12px 10px;
+    line-height: 10px;
+}
+
+.tipo2, .metade{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quarto{
+    margin: 0 5px ;
+    width: 46%;
+    height: 48%;
+    position: relative;
+    transition: 200ms linear; 
+}
+
+.quarto:hover, .img-principal:hover{
+    transform: scale(1.02);
+}
+
+
+
+.metade div p{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    height: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.metade div::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.img-principal{
+    background-image: url(../../../public/assets/rio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 200ms linear; 
+}
+
+.quarto{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1{
+    background-image: url(../../../public/assets/manaus.jpg);
+}
+
+.image2{
+    background-image: url(../../../public/assets/saopaulo.jpg);
+}
+
+.image3{
+    background-image: url(../../../public/assets/niteroi.jpg);
+}
+
+.image4{
+    background-image: url(../../../public/assets/maranhao.jpg);
+}
+
+.imagem5{
+    background-image: url(../../../public/assets/lencol.jpg);
+}
+
+.imagem6{
+    background-image: url(../../../public/assets/goias.jpg);
+}
+
+
+
+@media(max-width: 768px){
+
+    .quarto:hover, .img-principal:hover{
+        transform:unset;
+    }
+
+  
+    .ofertas-imagens{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content:unset;
+        position: relative;
+    }
+    
+    .metade{
+        width: 100%;
+        position: relative;
+    }
+    
+    .metade2{
+        width: 100%;
+        display: flex;
+        position:relative;
+    }
+
+    .quarto, .img-principal{
+        margin: 15px 5px ;
+        width: 100%;
+        height: 254PX;
+        position:relative;
+    }
+}
+
+
